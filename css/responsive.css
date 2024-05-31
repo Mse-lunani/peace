@@ -272,3 +272,6 @@
     }
 }
 /* ---- End of max-width 380px CSS ---- */
+#mainmenu .mobile-only{
+    display: none;
+}
