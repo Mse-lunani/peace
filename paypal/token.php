@@ -15,7 +15,7 @@ curl_setopt_array($curl, array(
     CURLOPT_POSTFIELDS => 'grant_type=client_credentials&ignoreCache=true&return_authn_schemes=true&return_client_metadata=true&return_unconsented_scopes=true',
     CURLOPT_HTTPHEADER => array(
         'Content-Type: application/x-www-form-urlencoded',
-        'Authorization: Basic QVpaVldEeTlvTXplQUdOY0U4RnFlV21tdXpSdmhMYWdZWDFnSHROUUtncWt1eDVyZGFfSUREY0IzYXRhajNfZUROX2NwVS1xZWpnZ1FsSVk6RUtHQm5FcXdBUm5oZ1lwZTZNVzV0T19pZVpramdhRVJiMzg2YVFDTkxiQWU5Q2tQYzdVUkRvZFNia2szckhMVVhUY1pocG01aW96NGZ1bFI='
+        'Authorization: Basic your auth'
     ),
 ));
 $response = curl_exec($curl);
