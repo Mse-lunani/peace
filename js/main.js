@@ -204,5 +204,15 @@
             $('#scroll-to-top').fadeOut();
         }
     });
-             
+
+/*=========================================================================
+Toggle Donate active
+=========================================================================*/
+$('.number-div').click(function (){
+    let val = $(this).data("val");
+    $('.number-div').removeClass('number-div-active');
+    $(this).addClass('number-div-active');
+    $("#donate_val").val(val);
+})
 })(jQuery);
+

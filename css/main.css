@@ -1258,7 +1258,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    15.0 Page Header Section
    ========================================================================== */
 .pager-header{
-    background-image: url(../img/page-header-bg.jpg);
+    background-image: url(../img/banner_page.png);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -1274,6 +1274,11 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 .pager-header p{
     color: #ddd;
+}
+.page-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Breadcrumb */
@@ -2082,4 +2087,35 @@ span.date{
 }
 .img-logo{
     width: 100px;
+}
+.parent-elements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.number-div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 50px;
+    margin: 10px;
+    border: 1px solid #838383;
+    border-radius: 100px;
+
+}
+.number-div-active{
+    border: 1px solid #180938;
+    border-radius: 100px;
+    color: #180938;
+}
+input[type="number"] {
+    height: 50px;
+}
+.parent-cnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
